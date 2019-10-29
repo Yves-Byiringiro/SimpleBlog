@@ -5,7 +5,7 @@ Before  using this project , you have to clone it at github using the command be
 git clone https://github.com/Yves-Byiringiro/SimpleBlog.git
 
 
-Before run this project in your local machine, you have to install Python  which help to manage your dependencies.
+Before run this project in your local machine, you have to install Python  which help to manage your dependencies, for install different packages you can use pipenv
 
 and switch to  the project directory ( articles_project ), you can run:
 
