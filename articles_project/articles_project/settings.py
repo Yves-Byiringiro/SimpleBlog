@@ -76,7 +76,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'django_userforeignkey.middleware.UserForeignKeyMiddleware',
+    'django_userforeignkey.middleware.UserForeignKeyMiddleware',
 
 ]
 
@@ -106,8 +106,12 @@ WSGI_APPLICATION = 'articles_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'articleprojectdb',
+        'USER': 'mygroup',
+        'PASSWORD': 'stagepelin',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
