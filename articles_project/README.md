@@ -1,4 +1,4 @@
-### First step
+### `First step`
 
 Before  using this project , you have to clone it at github using the command below:
 
@@ -9,7 +9,7 @@ Before run this project in your local machine, you have to install Python  which
 
 and switch to  the project directory ( articles_project ), you can run:
 
-### `python manage.py runserver`
+### python manage.py runserver
 
 Runs the app in the development mode
 Open [http://localhost:8000]to view it in the browser.
@@ -17,6 +17,6 @@ Open [http://localhost:8000]to view it in the browser.
 
 
 
-### NB:
+### `NB:`
 
 if you  get any error, you can contact me via email: byiringiroyves127@gmail.com
